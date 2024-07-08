@@ -615,10 +615,6 @@ body {
   #MEDIA QUERIES
 \*-----------------------------------*/
 
-/**
- * responsive for large than 575px screen
- */
-
 @media (min-width: 575px) {
 
   /**
