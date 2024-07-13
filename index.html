@@ -2,29 +2,41 @@
 <html lang="en">
 
 <head>
+  <!-- Menentukan karakter encoding untuk dokumen -->
   <meta charset="UTF-8">
+  <!-- Menyediakan kompatibilitas dengan Internet Explorer -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Mengatur viewport agar sesuai dengan lebar perangkat dan skala awal -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Menentukan judul halaman -->
   <title>Ndaru Otopart - Bengkel Otomotif Yogyakarta</title>
+  <!-- Metadata untuk judul halaman yang sama -->
   <meta name="title" content="Ndaru Otopart - Bengkel Otomotif Yogyakarta">
+  <!-- Menambahkan ikon shortcut untuk halaman -->
   <link rel="shortcut icon" href="assets/images/logo.png" type="image/svg+xml">
+  <!-- Preconnect untuk meningkatkan performa pemuatan font dari Google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0" />
+  <!-- Menambahkan font eksternal dari Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap" rel="stylesheet">
+  <!-- Menambahkan icon font dari Google -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0" />
+  <!-- Menambahkan stylesheet eksternal -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Preload gambar untuk meningkatkan performa pemuatan -->
   <link rel="preload" as="image" href="./assets/images/hero-banner.png">
   <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
 </head>
 
 <body>
+  <!-- Header situs -->
   <header class="header">
     <div class="container">
+      <!-- Logo situs -->
       <a href="#" class="logo">
         <img src="./assets/images/logo.png" width="128" height="63" alt="autofix home">
       </a>
+      <!-- Navigasi utama situs -->
       <nav class="navbar" data-navbar>
         <ul class="navbar-list">
           <li><a href="index.html" class="navbar-link">Home</a></li>
@@ -33,6 +45,7 @@
           <li><a href="project.html" class="navbar-link">Proyek</a></li>
         </ul>
       </nav>
+      <!-- Tombol untuk toggle navigasi pada perangkat mobile -->
       <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
         <span class="nav-toggle-icon icon-1"></span>
         <span class="nav-toggle-icon icon-2"></span>
@@ -43,6 +56,7 @@
 
   <main>
     <article>
+      <!-- Section hero dengan gambar latar -->
       <section class="hero has-bg-image" aria-label="home" style="background-image: url('./assets/images/hero-bg.jpg')">
         <div class="container">
           <div class="hero-content">
@@ -51,11 +65,13 @@
             <p class="section-text">
               Bergabunglah dengan komunitas otomotif kami yang aktif, di mana Anda dapat berbagi pengalaman, memperoleh saran dari para ahli, dan mendiskusikan tren terkini dalam dunia otomotif.
             </p>
+            <!-- Tombol untuk menuju halaman pelayanan -->
             <a href="service.html" class="btn">
               <span class="span">Pelayanan Kami</span>
               <span class="material-symbols-rounded">arrow_forward</span>
             </a>
           </div>
+          <!-- Gambar utama hero -->
           <figure class="hero-banner" style="--width: 1228; --height: 789;">
             <img src="./assets/images/hero-banner.png" width="1228" height="789" alt="red motor vehicle" class="move-anim">
           </figure>
@@ -67,6 +83,7 @@
   <footer class="footer">
     <div class="footer-top section">
       <div class="container">
+        <!-- Bagian branding footer -->
         <div class="footer-brand">
           <a href="#" class="logo">
             <img src="./assets/images/logo.png" width="128" height="63" alt="autofix home">
@@ -74,6 +91,7 @@
           <p class="footer-text">
             Bergabunglah dengan komunitas otomotif kami yang aktif, di mana Anda dapat berbagi pengalaman, memperoleh saran dari para ahli, dan mendiskusikan tren terkini dalam dunia otomotif.
           </p>
+          <!-- Daftar sosial media -->
           <ul class="social-list">
             <li>
               <a href="#" class="social-link">
@@ -92,6 +110,7 @@
             </li>
           </ul>
         </div>
+        <!-- Daftar jam buka -->
         <ul class="footer-list">
           <li>
             <p class="h3">Jam Buka</p>
@@ -101,6 +120,7 @@
             <span class="span">12.00 – 14.45</span>
           </li>
         </ul>
+        <!-- Daftar kontak -->
         <ul class="footer-list">
           <li>
             <p class="h3">Kontak</p>
@@ -118,6 +138,7 @@
             </a>
           </li>
           <li>
+            <!-- Alamat fisik -->
             <address class="footer-link address">
               <span class="material-symbols-rounded">location_on</span>
               <span class="span">Jl. Wijaya Kusuma No.121, Kutu Tegal, Sinduadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284</span>
@@ -125,19 +146,24 @@
           </li>
         </ul>
       </div>
+      <!-- Elemen dekoratif footer -->
       <img src="./assets/images/footer-shape-3.png" width="637" height="173" loading="lazy" alt="Shape" class="shape shape-3 move-anim">
     </div>
     <div class="footer-bottom">
       <div class="container">
+        <!-- Hak cipta -->
         <p class="copyright">Copyright 2024, Hbbnas All Rights Reserved.</p>
+        <!-- Elemen dekoratif footer -->
         <img src="./assets/images/footer-shape-2.png" width="778" height="335" loading="lazy" alt="Shape" class="shape shape-2">
         <img src="./assets/images/footer-shape-1.png" width="805" height="652" loading="lazy" alt="Red Car" class="shape shape-1 move-anim">
       </div>
     </div>
   </footer>
 
+  <!-- Menyertakan skrip eksternal -->
   <script src="./assets/js/script.js"></script>
 
+  <!-- Mendaftarkan Service Worker untuk peningkatan performa -->
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/service-worker.js')
@@ -145,4 +171,7 @@
           console.log('Service Worker registered')
         }
       )
-      }
+    }
+  </script>
+</body>
+</html>
